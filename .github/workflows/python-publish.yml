@@ -67,7 +67,7 @@ jobs:
         run: |
           pip install dist/*.whl
       - name: Run tests
-        run: pytest tests/
+        run: pytest
 
   Publish-Prod:
     name: Publish on PyPi - Prod
